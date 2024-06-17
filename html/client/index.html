@@ -1,0 +1,1936 @@
+<!doctype html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi shrink-to-fit=no">
+		<meta name="format-detection" content="telephone=no, address=no">
+		<meta name="title" content="목원대학교 IMAGE+">
+		<meta name="description" content="목원대학교 IMAGE+ 학생역량 및 경력개발시스템">
+		<meta name="copyrigt" content="목원대학교 IMAGE+">
+		<meta name="keywords" content="목원대학교 IMAGE+, 역량관리, 상담, 대학, 대학생, 경력관리시스템, 경력관리">
+		<title>목원대학교 IMAGE+</title>
+
+		<!-- [pp] favicon -->
+		<link rel="apple-touch-icon" href="../../images/favicon.png">
+		<link rel="shortcut icon" href="../../images/favicon.ico">
+		<!-- [pp] //favicon -->
+
+		<!-- [pp] css -->
+		<link rel="stylesheet" href="../../src/magnetic-popup/css/magnific-popup.css">
+		<link rel="stylesheet" href="../../src/mCustomScrollbar/css/jquery.mCustomScrollbar.min.css">
+		<link rel="stylesheet" href="../../src/select2/css/select2.css">
+		<link rel="stylesheet" href="../../src/apexchart/css/apexcharts.css">
+		<link rel="stylesheet" href="../../src/fullcalendar/css/fullcalendar.min.css">
+		<link rel="stylesheet" href="../../src/swiper/css/swiper.css">
+		<link rel="stylesheet" href="../../css/dl_global.css">
+		<link rel="stylesheet" href="../../css/client/normalize.css">
+		<link rel="stylesheet" href="../../css/client/grid.css">
+		<link rel="stylesheet" href="../../css/client/formstyle.css">
+		<link rel="stylesheet" href="../../css/client/table.css">
+		<link rel="stylesheet" href="../../css/client/common_ui.css">
+		<link rel="stylesheet" href="../../css/client/ui.css">
+		<link rel="stylesheet" href="../../css/client/popup.css">
+		<!-- [pp] //css -->
+
+		<!--[pp] js -->
+		<script src="../../src/jquery/js/jquery-3.5.1.min.js"></script>
+		<!-- [if lt IE 9]>
+		<script src="../../src/jquery/js/jquery-1.12.3.min.js"></script>
+		<script src="../../src/jquery/js/html5shiv.js"></script>
+		<script src="../../src/jquery/js/IE9.js"></script>
+		<script src="../../src/jquery/js/respond.min.js"></script>
+		<![endif]-->
+		<script src="../../src/magnetic-popup/js/jquery.magnific-popup.js"></script>
+		<script src="../../src/mCustomScrollbar/js/jquery.mCustomScrollbar.min.js"></script>
+		<script src="../../src/select2/js/select2.min.js"></script>
+		<script src="../../src/apexchart/js/apexcharts.js"></script>
+		<script src="../../src/fullcalendar/js/fullcalendar.min.js"></script>
+		<script src="../../src/swiper/js/swiper.min.js"></script>
+		<script src="../../js/client/pp_common.js"></script>
+		<!--[pp] //js -->
+	</head>
+	<body>
+		<!--[pp] ie 하위버젼 접속시 알림 -->
+		<div id="browseralert">
+			본 사이트는 익스플로러11 이상, 크롬, 오페라, 파이어폭스 브라우저등의 최신버전에 최적화 되어 있습니다.<br/>지금 사용하고 계시는 브라우저는 곧 지원이 중단되므로
+			<a href="http://windows.microsoft.com/ko-kr/internet-explorer/ie-11-worldwide-languages" target="_blank">익스플로러 최신버젼</a>으로 업그레이드하시거나 <a href="https://www.google.com/intl/ko/chrome/browser/" target="_blank">크롬</a>, <a href="http://www.opera.com/ko/computer" target="_blank" style="color:#f9c461;">오페라</a>, <a href="https://www.mozilla.org/en-US/firefox/new/?scene=2" target="_blank">파이어폭스</a>등의 최신 브라우저를 이용해 주세요.
+			<button type="button" class="browseralert_close">닫기</button>
+		</div>
+		<!--[pp] // ie 하위버젼 접속시 알림 -->
+		
+		<!-- [pp] 로딩중 화면 -->
+		<div id="loading" style="display: none;">
+			<p id="loading_image">
+				<img src="../../images/loading.gif" alt="Loading..."><br>
+				<span>Loading</span>
+			</p>
+		</div>
+		<!-- [pp] //로딩중 화면 -->
+		
+		<!-- [pp] 푸터를 제외한 전체페이지 -->
+		<div class="page_wrap">
+		
+			<!--[pp] skip nav -->
+			<nav class="skip_nav">
+				<a href="#gnb_skip">주요메뉴 바로가기</a>
+				<a href="#container_skip">본문영역 바로가기</a>
+			</nav>
+			<!--[pp] //skip nav -->
+			
+			<!-- [pp] header, lnb -->
+			<div class="nav_wrap">
+				<!-- [pp] header -->
+				<header class="header_wrap">
+					<div class="header_top grid_content">
+						<h1 class="header_logo">
+							<a href="javascript:void(0);">
+								<img src="../../images/client/common/header_logo.svg" alt="목원대학교 IMAGE+ 학생 역량/경력개발시스템"/>
+							</a>
+						</h1>
+						<p class="user_info">
+							<strong>김목원</strong> &#40;님&#41; 환영합니다
+						</p>
+						<a href="javascript:void(0);" class="btn_admin">관리자화면으로 이동</a>
+						<a href="javascript:void(0);" class="btn_log btn_login">LOGIN</a>
+						<button type="button" class="btn_sitemapmenu">닫기</button>
+						<!-- [pp] 로그인/로그아웃 : 
+						<a href="javascript:void(0);" class="btn_log btn_login">LOGIN</a>
+						<a href="javascript:void(0);" class="btn_log btn_logout">LOGOUT</a>
+						-->
+						<button type="button" class="btn_menu">
+							메뉴보기
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+					</div>
+					<div class="header_bottom grid_content">
+						<nav id="gnb_skip" class="gnb_wrap" tabindex="0">
+							<ul class="gnb_list">
+								<li class="gnb_1depth gnb01">
+									<a href="javascript:void(0);">시스템소개</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">
+												IMAGE+ 학생역량&middot;경력개발시스템 소개
+											</a>
+										</li>
+									</ul>
+								</li>
+								<li class="gnb_1depth gnb02">
+									<a href="javascript:void(0);">진단센터</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">
+												핵심역량진단
+											</a>
+											<ul class="gnb_3depth">
+												<li>
+													<a href="javascript:void(0);">핵심역량진단 실시</a>
+												</li>
+												<li>
+													<a href="javascript:void(0);">핵심역량진단 결과</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0);">학습역량진단</a>
+											<ul class="gnb_3depth">
+												<li>
+													<a href="javascript:void(0);">학습역량진단 실시</a>
+												</li>
+												<li>
+													<a href="javascript:void(0);">학습역량진단 결과</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0);">워크넷 진단</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">C.A.T 진단</a>
+										</li>
+									</ul>
+								</li>
+								<li class="gnb_1depth gnb03">
+									<a href="javascript:void(0);">역량개발</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">교과정보</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">비교과 프로그램 신청</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">나의 내역</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">자기주도활동</a>
+										</li>
+									</ul>
+								</li>
+								<li class="gnb_1depth gnb04">
+									<a href="javascript:void(0);">상담센터</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">심리상담</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">진로상담&#40;취업&#41;</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">취업상담&#40;취업지원관&#41;</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">창업상담&#40;창업담당관&#41;</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">외국인유학생 상담</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">지도교수상담</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">나의 상담 내역</a>
+										</li>
+									</ul>
+								</li>
+								<li class="gnb_1depth gnb05">
+									<a href="javascript:void(0);">진로설계</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">진로설계</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">나의 진로설계</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">진로탐색</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">나의 로드맵</a>
+										</li>
+									</ul>
+								</li>
+								<li class="gnb_1depth gnb06">
+									<a href="javascript:void(0);">취업지원</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">채용정보</a>
+											<ul class="gnb_3depth">
+												<li>
+													<a href="javascript:void(0);">
+														추천 채용 정보
+													</a>
+												</li>
+												<li>
+													<a href="javascript:void(0);">
+														워크넷 채용 정보
+													</a>
+												</li>
+												<li>
+													<a href="javascript:void(0);">
+														잡코리아 채용 정보
+													</a>
+												</li>
+												<li>
+													<a href="javascript:void(0);">
+														사람인 채용 정보
+													</a>
+												</li>
+												<li>
+													<a href="javascript:void(0);">
+														워크넷 공채 속보
+													</a>
+												</li>
+											</ul>
+										</li>
+										<li>
+											<a href="javascript:void(0);">국가직무능력표준</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">직업동영상</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">자격증</a>
+										</li>
+									</ul>
+								</li>
+								<li class="gnb_1depth gnb07">
+									<a href="javascript:void(0);">커뮤니티</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">공지사항</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">자료실</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">갤러리</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">FAQ</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">설문조사</a>
+										</li>
+									</ul>
+								</li>
+								<li class="gnb_1depth gnb08">
+									<a href="javascript:void(0);">마이페이지</a>
+									<ul class="gnb_2depth">
+										<li>
+											<a href="javascript:void(0);">나의 정보</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">인증 현황</a>
+										</li>
+										<li>
+											<a href="javascript:void(0);">포트폴리오</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<!-- [pp] //header -->
+				<!-- [pp] mainpage visual -->
+				<div class="mainpage_visual">
+					<div class="grid_content">
+						<h2>
+							<p>
+								<strong>학생 역량 & 경력 개발</strong>
+								시스템
+							</p>
+						</h2>
+					</div>
+				</div>
+			<!-- [pp] //mainpage visual -->
+			</div>
+
+			<!-- [pp] 사이트맵 -->
+			<div class="sitemap">
+				<div class="inner">
+					<div class="sitemap_top">
+						<div class="grid_content">
+							<strong>전체 메뉴</strong>
+							<button type="button" class="btn_sitemap">닫기</button>
+						</div>
+					</div>
+					<div class="sitemap_bottom">
+						<div class="grid_content">
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">시스템 소개</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">
+											IMAGE+ 학생역량&middot;경력개발시스템 소개
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">진단센터</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">핵심역량진단</a>
+										<ul class="gnb_3depth">
+											<li>
+												<a href="javascript:void(0);">
+													핵심역량진단 실시
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													핵심역량진단 결과
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">학습역량진단</a>
+										<ul class="gnb_3depth">
+											<li>
+												<a href="javascript:void(0);">
+													학습역량진단 실시
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													학습역량진단 결과
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">워크넷진단</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">C.A.T진단</a>
+									</li>
+								</ul>
+							</div>
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">역량개발</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">교과정보</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">비교과 프로그램 신청</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">나의 내역</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">자기주도활동</a>
+									</li>
+								</ul>
+							</div>
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">상담센터</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">심리상담</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">진로상담&#40;취업&#41;</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">취업상담&#40;취업지원관&#41;</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">창업상담&#40;창업담당관&#41;</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">외국인유학생 상담</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">지도교수상담</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">나의 상담 내역</a>
+									</li>
+								</ul>
+							</div>
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">진로설계</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">진로설계</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">나의 진로설계</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">진로탐색</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">나의 로드맵</a>
+									</li>
+								</ul>
+							</div>
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">취업지원</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">채용정보</a>
+										<ul class="gnb_3depth">
+											<li>
+												<a href="javascript:void(0);">
+													추천 채용 정보
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													워크넷 채용 정보
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													잡코리아 채용 정보
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													사람인 채용 정보
+												</a>
+											</li>
+											<li>
+												<a href="javascript:void(0);">
+													워크넷 공채 속보
+												</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<a href="javascript:void(0);">국가직무능력표준</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">직업동영상</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">자격증</a>
+									</li>
+								</ul>
+							</div>
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">커뮤니티</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">공지사항</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">자료실</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">갤러리</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">FAQ</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">설문조사</a>
+									</li>
+								</ul>
+							</div>
+							<div class="gnb_2depth">
+								<strong class="gnb_tit">마이페이지</strong>
+								<ul>
+									<li>
+										<a href="javascript:void(0);">나의 정보</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">인증 현황</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">포트폴리오</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- [pp] //사이트맵 -->
+
+			<!-- [pp] subpage 컨텐츠영역 -->
+			<section id="container_skip" class="contents_wrap" tabindex="0">
+				<section class="mainprogram_wrap">
+					<div class="grid_content">
+						<div class="btn_rowposition">
+							<h3 class="mainsection_tit">비교과 프로그램</h3>
+							<div class="inner">
+								<ul class="tab_list2 tab_switch_js">
+									<li class="on">
+										<a href="javascript:void(0);">전체</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">찜한 비교과</a>
+									</li>
+									<li>
+										<a href="javascript:void(0);">추천 비교과</a> 
+									</li>
+								</ul>
+								<div class="select_form wd_120">
+									<label class="select_common">선택</label>
+									<select class="select_custom">
+										<option value="" selected="selected">선택</option>
+										<option value="">전체</option>
+										<option value="">찜한 비교과</option>
+										<option value="">추천 비교과</option>
+									</select>
+								</div>
+								<a href="javascript:void(0);" class="btn_more">더보기</a>
+							</div>
+						</div>
+						<div class="mainprogram_swiper boxloading_wrap">
+							<!-- [pp] 로딩박스 : 
+							<div class="boxloading">
+								<img src="../../images/boxloading.gif" alt="로딩중입니다.">
+							</div>
+							-->
+							<!-- [pp] 비교과 없을때 : 
+							<div class="nocnt_box bg_white">
+								<p>
+									프로그램이 없습니다
+								</p>
+							</div>
+							-->
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide program_cardtype">
+										<div class="nocnt_box mainpage">
+											<p>
+												프로그램이 없습니다
+											</p>
+										</div>
+									</div>
+									<div class="swiper-slide program_cardtype">
+										<!-- [pp] 상태 : 
+										-  모집중 : recruiting
+										-  모집완료 : finished
+										-  운영중 : operation
+										-  신청불가 : impossible
+										-->
+										<strong class="status_label recruiting">모집중</strong>
+										<p class="btn_addlike">
+											<input type="checkbox" name="addlike1_2" id="addlike1_2">
+											<label for="addlike1_2">좋아요</label>
+										</p>
+										<div class="img_box">
+											<!-- [pp] 이미지 없을때:  
+											<img src="../../images/client/sub/img_nopreview.jpg" alt="프로그램 이미지가 없습니다">
+											-->
+											<img src="../../images/client/sub/img_program_capa1.png" alt=" 인성">
+
+											<!-- [pp] 프로그램 마일리지 영역 -->
+											<ul class="program_mileage">
+												<li>
+													졸업인증
+													<span class="score">15</span>
+												</li>
+												<li>
+													봄인증
+													<span class="score">200</span>
+												</li>
+											</ul>
+										</div>
+										<div class="program_bottom">
+											<dl>
+												<dt>
+													<!-- [pp] 역량별 클래스 : 
+													-  capa1 : 이타적 인성
+													-  capa2 : 자기애적 감성
+													-  capa3 : 주체적 자립
+													-  capa4 : 창의적 문제해결
+													-  capa5 : 융화적 소통
+													-->
+													<a href="javascript:void(0);">
+														<strong class="capa_label capa1">이타적 인성</strong>
+														제목입니다 제목입니다 제목입니다 제목입니다 제목입니다 제목입니다 제목입니다 
+													</a>
+												</dt>
+												<dd>
+													<strong class="font_orange">모집기간</strong>
+													2021.10.01 ~ 2021.10.20 2021.10.01 ~ 2021.10.20
+												</dd>
+												<dd>
+													<strong class="font_green">활동기간</strong>
+													2021.12.01 ~ 2021.12.20
+												</dd>
+												<dd>
+													<strong class="font_blue">참여학과</strong>
+													모든 학과
+												</dd>
+												<dd>
+													<strong class="font_purple">참여학년</strong>
+													1학년, 2학년, 3학년
+												</dd>
+											</dl>
+											<div class="progress_bar">
+												<p class="wd_p20"></p>
+												<span class="progress_bartxt">16/30명</span>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide program_cardtype">
+										<!-- [pp] 상태 : 
+										-  모집중 : recruiting
+										-  모집완료 : finished
+										-  운영중 : operation
+										-  신청불가 : impossible
+										-->
+										<strong class="status_label finished">모집완료</strong>
+										<p class="btn_addlike">
+											<input type="checkbox" name="addlike1_3" id="addlike1_3">
+											<label for="addlike1_3">좋아요</label>
+										</p>
+										<div class="img_box">
+											<!-- [pp] 이미지 없을때:  
+											<img src="../../images/client/sub/img_nopreview.jpg" alt="프로그램 이미지가 없습니다">
+											-->
+											<img src="../../images/client/sub/img_program_capa2.png" alt="주체적자립">
+		
+												<!-- [pp] 프로그램 마일리지 영역 -->
+												<ul class="program_mileage">
+												<li>
+													졸업인증
+													<span class="score">15</span>
+												</li>
+												<li>
+													봄인증
+													<span class="score">200</span>
+												</li>
+											</ul>
+										</div>
+										<div class="program_bottom">
+											<dl>
+												<dt>
+													<!-- [pp] 역량별 클래스 : 
+													-  capa1 : 이타적 인성
+													-  capa2 : 자기애적 감성
+													-  capa3 : 주체적 자립
+													-  capa4 : 창의적 문제해결
+													-  capa5 : 융화적 소통
+													-->
+													<a href="javascript:void(0);">
+														<strong class="capa_label capa2">자기애적 감성</strong>
+														제목입니다
+													</a>
+												</dt>
+												<dd>
+													<strong class="font_orange">모집기간</strong>
+													2021.10.01 ~ 2021.10.20 2021.10.01 ~ 2021.10.20
+												</dd>
+												<dd>
+													<strong class="font_green">활동기간</strong>
+													2021.12.01 ~ 2021.12.20
+												</dd>
+												<dd>
+													<strong class="font_blue">참여학과</strong>
+													모든 학과
+												</dd>
+												<dd>
+													<strong class="font_purple">참여학년</strong>
+													1학년, 2학년, 3학년
+												</dd>
+											</dl>
+											<div class="progress_bar">
+												<p class="wd_p20"></p>
+												<span class="progress_bartxt">16/30명</span>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide program_cardtype">
+										<!-- [pp] 상태 : 
+										-  모집중 : recruiting
+										-  모집완료 : finished
+										-  운영중 : operation
+										-  신청불가 : impossible
+										-->
+										<strong class="status_label operation">운영중</strong>
+										<p class="btn_addlike">
+											<input type="checkbox" name="addlike1_4" id="addlike1_4">
+											<label for="addlike1_4">좋아요</label>
+										</p>
+										<div class="img_box">
+											<!-- [pp] 이미지 없을때:  
+											<img src="../../images/client/sub/img_nopreview.jpg" alt="프로그램 이미지가 없습니다">
+											-->
+											<img src="../../images/client/sub/img_program_capa3.png" alt="융화적 소통">
+
+											<!-- [pp] 프로그램 마일리지 영역 -->
+											<ul class="program_mileage">
+												<li>
+													졸업인증
+													<span class="score">15</span>
+												</li>
+												<li>
+													봄인증
+													<span class="score">200</span>
+												</li>
+											</ul>
+										</div>
+										<div class="program_bottom">
+											<dl>
+												<dt>
+													<!-- [pp] 역량별 클래스 : 
+													-  capa1 : 이타적 인성
+													-  capa2 : 자기애적 감성
+													-  capa3 : 주체적 자립
+													-  capa4 : 창의적 문제해결
+													-  capa5 : 융화적 소통
+													-->
+													<a href="javascript:void(0);">
+														<strong class="capa_label capa3">주체적 자립</strong>
+														제목입니다
+													</a>
+												</dt>
+												<dd>
+													<strong class="font_orange">모집기간</strong>
+													2021.10.01 ~ 2021.10.20 2021.10.01 ~ 2021.10.20
+												</dd>
+												<dd>
+													<strong class="font_green">활동기간</strong>
+													2021.12.01 ~ 2021.12.20
+												</dd>
+												<dd>
+													<strong class="font_blue">참여학과</strong>
+													모든 학과
+												</dd>
+												<dd>
+													<strong class="font_purple">참여학년</strong>
+													1학년, 2학년, 3학년
+												</dd>
+											</dl>
+											<div class="progress_bar">
+												<p class="wd_p20"></p>
+												<span class="progress_bartxt">16/30명</span>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide program_cardtype">
+										<!-- [pp] 상태 : 
+										-  모집중 : recruiting
+										-  모집완료 : finished
+										-  운영중 : operation
+										-  신청불가 : impossible
+										-->
+										<strong class="status_label impossible">신청불가</strong>
+										<p class="btn_addlike">
+											<input type="checkbox" name="addlike1_5" id="addlike1_5">
+											<label for="addlike1_5">좋아요</label>
+										</p>
+										<div class="img_box">
+											<!-- [pp] 이미지 없을때:  
+											<img src="../../images/client/sub/img_nopreview.jpg" alt="프로그램 이미지가 없습니다">
+											-->
+											<img src="../../images/client/sub/img_program_capa4.png" alt="자기애적 감성">
+
+											<!-- [pp] 프로그램 마일리지 영역 -->
+											<ul class="program_mileage">
+												<li>
+													졸업인증
+													<span class="score">15</span>
+												</li>
+												<li>
+													봄인증
+													<span class="score">200</span>
+												</li>
+											</ul>
+										</div>
+										<div class="program_bottom">
+											<dl>
+												<dt>
+													<!-- [pp] 역량별 클래스 : 
+													-  capa1 : 이타적 인성
+													-  capa2 : 자기애적 감성
+													-  capa3 : 주체적 자립
+													-  capa4 : 창의적 문제해결
+													-  capa5 : 융화적 소통
+													-->
+													<a href="javascript:void(0);">
+														<strong class="capa_label capa4">창의적 문제해결</strong>
+														제목입니다
+													</a>
+												</dt>
+												<dd>
+													<strong class="font_orange">모집기간</strong>
+													2021.10.01 ~ 2021.10.20 2021.10.01 ~ 2021.10.20
+												</dd>
+												<dd>
+													<strong class="font_green">활동기간</strong>
+													2021.12.01 ~ 2021.12.20
+												</dd>
+												<dd>
+													<strong class="font_blue">참여학과</strong>
+													모든 학과
+												</dd>
+												<dd>
+													<strong class="font_purple">참여학년</strong>
+													1학년, 2학년, 3학년
+												</dd>
+											</dl>
+											<div class="progress_bar">
+												<p class="wd_p20"></p>
+												<span class="progress_bartxt">16/30명</span>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide program_cardtype">
+										<!-- [pp] 상태 : 
+										-  모집중 : recruiting
+										-  모집완료 : finished
+										-  운영중 : operation
+										-  신청불가 : impossible
+										-->
+										<strong class="status_label recruiting">모집중</strong>
+										<p class="btn_addlike">
+											<input type="checkbox" name="addlike1_6" id="addlike1_6">
+											<label for="addlike1_6">좋아요</label>
+										</p>
+										<div class="img_box">
+											<!-- [pp] 이미지 없을때:  
+											<img src="../../images/client/sub/img_nopreview.jpg" alt="프로그램 이미지가 없습니다">
+											-->
+											<img src="../../images/client/sub/img_program_capa5.png" alt="창의적 문제해결">
+
+											<!-- [pp] 프로그램 마일리지 영역 -->
+											<ul class="program_mileage">
+												<li>
+													졸업인증
+													<span class="score">15</span>
+												</li>
+												<li>
+													봄인증
+													<span class="score">200</span>
+												</li>
+											</ul>
+										</div>
+										<div class="program_bottom">
+											<dl>
+												<dt>
+													<!-- [pp] 역량별 클래스 : 
+													-  capa1 : 이타적 인성
+													-  capa2 : 자기애적 감성
+													-  capa3 : 주체적 자립
+													-  capa4 : 창의적 문제해결
+													-  capa5 : 융화적 소통
+													-->
+													<a href="javascript:void(0);">
+														<strong class="capa_label capa5">융화적 소통</strong>
+														제목입니다
+													</a>
+												</dt>
+												<dd>
+													<strong class="font_orange">모집기간</strong>
+													2021.10.01 ~ 2021.10.20 2021.10.01 ~ 2021.10.20
+												</dd>
+												<dd>
+													<strong class="font_green">활동기간</strong>
+													2021.12.01 ~ 2021.12.20
+												</dd>
+												<dd>
+													<strong class="font_blue">참여학과</strong>
+													모든 학과
+												</dd>
+												<dd>
+													<strong class="font_purple">참여학년</strong>
+													1학년, 2학년, 3학년
+												</dd>
+											</dl>
+											<div class="progress_bar">
+												<p class="wd_p20"></p>
+												<span class="progress_bartxt">16/30명</span>
+											</div>
+										</div>
+									</div>
+									<div class="swiper-slide program_cardtype">
+										<!-- [pp] 상태 : 
+										-  모집중 : recruiting
+										-  모집완료 : finished
+										-  운영중 : operation
+										-  신청불가 : impossible
+										-->
+										<strong class="status_label recruiting">모집중</strong>
+										<p class="btn_addlike">
+											<input type="checkbox" name="addlike1_7" id="addlike1_7">
+											<label for="addlike1_7">좋아요</label>
+										</p>
+										<div class="img_box">
+											<!-- [pp] 이미지 없을때:  
+											<img src="../../images/client/sub/img_nopreview.jpg" alt="프로그램 이미지가 없습니다">
+											-->
+											<img src="../../images/client/sub/img_program_capa1.png" alt="이타적 인성">
+
+											<!-- [pp] 프로그램 마일리지 영역 -->
+											<ul class="program_mileage">
+												<li>
+													졸업인증
+													<span class="score">15</span>
+												</li>
+												<li>
+													봄인증
+													<span class="score">200</span>
+												</li>
+											</ul>
+										</div>
+										<div class="program_bottom">
+											<dl>
+												<dt>
+													<!-- [pp] 역량별 클래스 : 
+													-  capa1 : 이타적 인성
+													-  capa2 : 주체적 자립
+													-  capa3 : 융화적 소통
+													-  capa4 : 자기애적 감성
+													-  capa5 : 창의적 문제해결
+													-->
+													<a href="javascript:void(0);">
+														<strong class="capa_label capa1">이타적 인성</strong>
+														제목입니다 제목입니다 제목입니다 제목입니다 제목입니다 제목입니다 제목입니다 
+													</a>
+												</dt>
+												<dd>
+													<strong class="font_orange">모집기간</strong>
+													2021.10.01 ~ 2021.10.20 2021.10.01 ~ 2021.10.20
+												</dd>
+												<dd>
+													<strong class="font_green">활동기간</strong>
+													2021.12.01 ~ 2021.12.20
+												</dd>
+												<dd>
+													<strong class="font_blue">참여학과</strong>
+													모든 학과
+												</dd>
+												<dd>
+													<strong class="font_purple">참여학년</strong>
+													1학년, 2학년, 3학년
+												</dd>
+											</dl>
+											<div class="progress_bar">
+												<p class="wd_p20"></p>
+												<span class="progress_bartxt">16/30명</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button type="button" class="swiper_control swiper_prev">이전목록</button>
+							<button type="button" class="swiper_control swiper_next">다음목록</button>
+						</div>
+					</div>
+				</section>
+				<div class="division_area1 grid_content">
+					<section class="maintest_wrap">
+						<h3 class="mainsection_tit">진단&middot;설문</h3>
+						<!-- [pp] 진단 없을때 : 
+						<div class="nocnt_box mainpage">
+							<p>
+								진행중인 진단이 없습니다
+							</p>
+						</div>
+						-->
+						<div class="testintro_swiper swiper-container">
+							 <!-- [pp] 진단 없을때 : 
+							<div class="nocnt_box mainpage">
+								<p>
+									진행중인 진단이 없습니다
+								</p>
+							</div>
+							-->
+							<div class="swiper-wrapper">
+								<div class="swiper-slide">
+									<strong>핵심역량진단</strong>
+									<p>
+										학생 개인의 인격과 학문을 성장시키는 최적의 방안을 찾아내어
+										<br/>
+										대학생활과 사회진출에 실질적인 도움이 됩니다.
+									</p>
+									<div class="testgo_wrap">
+										<a href="javascript:void(0);" class="test_do">진단하기</a>
+										<a href="javascript:void(0);" class="mytest_do">나의 진단결과 보기</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<strong>학습역량진단</strong>
+									<p>
+										학업성취의 기초가 되는 학습역량을 향상시키는
+										<br/>
+										최적의 방안을 모색하고 지원하는데 도움이 됩니다.
+									</p>
+									<div class="testgo_wrap">
+										<a href="javascript:void(0);" class="test_do">진단하기</a>
+										<a href="javascript:void(0);" class="mytest_do">나의 진단결과 보기</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<strong>전공역량진단</strong>
+									<p>
+										(소개글 삽입 예정)
+									</p>
+									<div class="testgo_wrap">
+										<a href="javascript:void(0);" class="test_do">진단하기</a>
+										<a href="javascript:void(0);" class="mytest_do">나의 진단결과 보기</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<strong>워크넷진단</strong>
+									<p>
+										심리적 특성을 객관적으로 측정하여 자신에 대한 이해를 돕고
+										<br/>
+										개인의 특성에 보다 적합한 진로분야를 선택할 수 있도록 도와줍니다.
+									</p>
+									<div class="testgo_wrap">
+										<a href="javascript:void(0);" class="test_do">진단하기</a>
+									</div>
+								</div>
+								<div class="swiper-slide">
+									<strong>설문조사</strong>
+									<p>
+										(소개글 삽입 예정)
+									</p>
+									<div class="testgo_wrap">
+										<a href="javascript:void(0);" class="test_do">참여하기</a>
+										<!--<a href="javascript:void(0);" class="mytest_do">나의 내역 보기</a>-->
+									</div>
+								</div>
+							</div>
+							<div class="swipercontrol_wrap testintro">
+								<button type="button" class="swiper_control swiper_prev">이전목록</button>
+								<div class="swiper-pagination"></div>
+								<button type="button" class="swiper_control swiper_next">다음목록</button>
+							</div>
+						</div>
+						<div class="test_swiper mytest_swiper">
+							<h4>진행중인 진단</h4>
+							<!-- [pp] 진단 없을때 : 
+						   <div class="nocnt_box mainpage">
+								<p>
+									진행중인 진단이 없습니다
+								</p>
+							</div>
+							-->
+							<div class="swiper-container boxloading_wrap">
+								<!-- [pp] 로딩박스 : 
+								<div class="boxloading">
+									<img src="../../images/boxloading.gif" alt="로딩중입니다.">
+								</div>
+								-->
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="javascript:void(0);">
+											<strong>
+												2021 상반기 핵심역량진단
+											</strong>
+											<span>
+												2021.04.05 ~ 2021.04.19
+											</span>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="javascript:void(0);">
+											<strong>
+												2021 상반기 학습유형진단
+											</strong>
+											<span>
+												2021.04.05 ~ 2021.04.19
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="swipercontrol_wrap mytest">
+									<button type="button" class="swiper_control swiper_prev">이전목록</button>
+									<div class="swiper-pagination"></div>
+									<button type="button" class="swiper_control swiper_next">다음목록</button>
+								</div>
+							</div>
+						</div>
+						<div class="test_swiper mysurvey_swiper">
+							<h4>진행중인 설문</h4>
+							<!-- [pp] 설문 없을때 : 
+							<div class="nocnt_box">
+								<p>
+									진행중인 설문이 없습니다
+								</p>
+							</div>
+							-->
+							<div class="swiper-container boxloading_wrap">
+								<!-- [pp] 로딩박스 : 
+								<div class="boxloading">
+									<img src="../../images/boxloading.gif" alt="로딩중입니다.">
+								</div>
+								-->
+								
+								<div class="swiper-wrapper">
+									<div class="swiper-slide">
+										<a href="javascript:void(0);">
+											<strong>
+												2021 학업 설문조사
+											</strong>
+											<span>
+												2021.04.05 ~ 2021.04.19
+											</span>
+										</a>
+									</div>
+									<div class="swiper-slide">
+										<a href="javascript:void(0);">
+											<strong>
+												2021 유학생 대상 설문조사
+											</strong>
+											<span>
+												2021.04.05 ~ 2021.04.19
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="swipercontrol_wrap mysurvey">
+									<button type="button" class="swiper_control swiper_prev">이전목록</button>
+									<div class="swiper-pagination"></div>
+									<button type="button" class="swiper_control swiper_next">다음목록</button>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="maintestresult_wrap">
+						<h3 class="mainsection_tit">나의 핵심역량 진단결과</h3>
+						<div class="graph_box boxloading_wrap">
+							<div id="chart1">
+								<!-- [pp] 로딩박스 : 
+								<div class="boxloading">
+									<img src="../../images/boxloading.gif" alt="로딩중입니다.">
+								</div>
+								-->
+								<!-- [pp] 결과 없을때 : 
+								<div class="nocnt_box">
+									<p>
+										핵심역량 진단결과가 없습니다
+									</p>
+								</div>
+								-->
+							</div>
+						</div>
+					</section>
+				</div>
+				<section class="mainemployment_wrap grid_content">
+					<div class="btn_rowposition">
+						<h3 class="mainsection_tit">채용정보</h3>
+						<div class="inner">
+							<div class="swipercontrol_type">
+								<button type="button" class="swiper_control swiper_prev">이전목록</button>
+								<button type="button" class="swiper_control swiper_next">다음목록</button>
+								<a href="javascript:void(0);" class="btn_more">more</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-container">
+						<div class="swiper-wrapper">
+							<div class="mainemployment_list swiper-slide">
+								<div class="nocnt_box mainpage">
+									<p>
+										채용정보가 없습니다
+									</p>
+								</div>
+							</div>
+							<div class="mainemployment_list swiper-slide">
+								<!-- [pp] 채용정보 없을때 : 
+								<div class="nocnt_box">
+									<p>
+										채용정보가 없습니다
+									</p>
+								</div>
+								-->
+								<dl>
+									<dt>
+										<a href="javascript:void(0);">
+											<!-- [pp] 고정게시물 일시 클래스 fixlist 추가 -->
+											<strong class="fixlist">
+												주식회사 카카오 경력 개발자 주식회사 카카오 경력 개발자 주식회사 카카오 경력 개발자
+											</strong>
+											<span>
+												2021.02.01 ~ 2021.02.31
+											</span>
+										</a>
+									</dt>
+									<dd>
+										<strong>업체명</strong>
+										주식회사 카카오 주식회사 카카오 주식회사 카카오
+									</dd>
+									<dd>
+										<strong>소재지</strong>
+										경기 성남시 분당구
+									</dd>
+									<dd>
+										<strong>모집인원</strong>
+										1명
+									</dd>
+									<dd>
+										<strong>업종</strong>
+									</dd>
+									<dd>
+										<strong>관련전공</strong>
+									</dd>
+								</dl>
+							</div>
+							<div class="mainemployment_list swiper-slide">
+								<dl>
+									<dt>
+										<a href="javascript:void(0);">
+											<strong>
+												주식회사 카카오 경력 개발자
+											</strong>
+											<span>
+												2021.02.01 ~ 2021.02.31
+											</span>
+										</a>
+									</dt>
+									<dd>
+										<strong>업체명</strong>
+										주식회사 카카오
+									</dd>
+									<dd>
+										<strong>소재지</strong>
+										경기 성남시 분당구
+									</dd>
+									<dd>
+										<strong>모집인원</strong>
+										1명
+									</dd>
+									<dd>
+										<strong>업종</strong>
+										사무직
+									</dd>
+									<dd>
+										<strong>관련전공</strong>
+										전공 무관
+									</dd>
+								</dl>
+							</div>
+							<div class="mainemployment_list swiper-slide">
+								<dl>
+									<dt>
+										<a href="javascript:void(0);">
+											<strong>
+												주식회사 카카오 경력 개발자
+											</strong>
+											<span>
+												2021.02.01 ~ 2021.02.31
+											</span>
+										</a>
+									</dt>
+									<dd>
+										<strong>업체명</strong>
+										주식회사 카카오
+									</dd>
+									<dd>
+										<strong>소재지</strong>
+										경기 성남시 분당구
+									</dd>
+									<dd>
+										<strong>모집인원</strong>
+										1명
+									</dd>
+									<dd>
+										<strong>업종</strong>
+										사무직
+									</dd>
+									<dd>
+										<strong>관련전공</strong>
+										전공 무관
+									</dd>
+								</dl>
+							</div>
+							<div class="mainemployment_list swiper-slide">
+								<dl>
+									<dt>
+										<a href="javascript:void(0);">
+											<strong>
+												주식회사 카카오 경력 개발자
+											</strong>
+											<span>
+												2021.02.01 ~ 2021.02.31
+											</span>
+										</a>
+									</dt>
+									<dd>
+										<strong>업체명</strong>
+										주식회사 카카오
+									</dd>
+									<dd>
+										<strong>소재지</strong>
+										경기 성남시 분당구
+									</dd>
+									<dd>
+										<strong>모집인원</strong>
+										1명
+									</dd>
+									<dd>
+										<strong>업종</strong>
+										사무직
+									</dd>
+									<dd>
+										<strong>관련전공</strong>
+										전공 무관
+									</dd>
+								</dl>
+							</div>
+							<div class="mainemployment_list swiper-slide">
+								<dl>
+									<dt>
+										<a href="javascript:void(0);">
+											<strong>
+												주식회사 카카오 경력 개발자
+											</strong>
+											<span>
+												2021.02.01 ~ 2021.02.31
+											</span>
+										</a>
+									</dt>
+									<dd>
+										<strong>업체명</strong>
+										주식회사 카카오
+									</dd>
+									<dd>
+										<strong>소재지</strong>
+										경기 성남시 분당구
+									</dd>
+									<dd>
+										<strong>모집인원</strong>
+										1명
+									</dd>
+									<dd>
+										<strong>업종</strong>
+										사무직
+									</dd>
+									<dd>
+										<strong>관련전공</strong>
+										전공 무관
+									</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="maincounsel_wrap grid_content">
+					<h3 class="mainsection_tit">상담센터</h3>
+					<p>
+						심리상담은 학생들의 개인 적응상의 효율적인 학교생활<br/>
+						적을을 돕기 위한 심리검사활동 및 이에 관련된 상담을 말합니다.
+					</p>
+					<a href="javascript:void(0);" class="btn_goto">나의 상담내역 바로가기</a>
+					<ul>
+						<li class="trial">
+							<a href="javascript:void(0);">심리상담 신청하기</a>
+						</li>
+						<li class="career">
+							<a href="javascript:void(0);">
+								진로취업 상담하기
+								<br/>
+								(교수)
+							</a>
+						</li>
+						<li class="professor">
+							<a href="javascript:void(0);">
+								진로취업 상담하기
+								<br/>
+								(취업지원관)
+							</a>
+						</li>
+					</ul>
+				</section>
+				<div class="division_area2 grid_content">
+					<section class="mainnotice_wrap">
+						<div class="btn_rowposition">
+							<h3 class="mainsection_tit">공지사항</h3>
+							<div class="inner">
+								<div class="swipercontrol_type">
+									<button type="button" class="swiper_control swiper_prev">이전목록</button>
+									<button type="button" class="swiper_control swiper_next">다음목록</button>
+									<a href="javascript:void(0);" class="btn_more">more</a>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+								<div class="mainnotice_list swiper-slide">
+									<!-- [pp] 공지사항 없을때 : 
+									<div class="nocnt_box mainpage">
+										<p>
+											공지사항이 없습니다
+										</p>
+									</div>
+									-->
+									<div class="nocnt_box mainpage">
+										<p>
+											공지사항이 없습니다
+										</p>
+									</div>
+								</div>
+								<div class="mainnotice_list swiper-slide">
+									<a href="javascript:void(0);">
+										<strong>
+											2020학년도 2학기 중간고사 시험 일정 안내입니다 2020학년도 2학기 중간고사 시험 일정 안내입니다 
+										</strong>
+										<span class="date">
+											2020.10.20
+										</span>
+									</a>
+								</div>
+								<div class="mainnotice_list swiper-slide">
+									<a href="javascript:void(0);">
+										<strong>
+											2020학년도 2학기 중간고사 시험 일정 안내입니다
+										</strong>
+										<span class="date">
+											2020.10.20
+										</span>
+									</a>
+								</div>
+								<div class="mainnotice_list swiper-slide">
+									<a href="javascript:void(0);">
+										<strong>
+											2020학년도 2학기 중간고사 시험 일정 안내입니다
+										</strong>
+										<span class="date">
+											2020.10.20
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="mainfaq_wrap">
+						<h3 class="mainsection_tit">자주 하는 질문</h3>
+						<div class="mainfaq_box">
+							<p>
+								<span>궁금하신 것이 있나요?</span><br/>
+								FAQ를 통해 궁금증을 해소해 보세요
+							</p>
+							<a href="javascipt:void(0);" class="btn btn_sm">바로가기</a>
+						</div>
+					</section>
+					<!-- [pp] 22.09.07 삭제 : 
+					<section class="mainai_wrap">
+						<h3 class="mainsection_tit">AI자기소개서 솔루션</h3>
+						<div class="mainfaq_box mainai_box">
+							<p>
+								<span>막막한 자소서 작성</span>부터<br/>
+								<span>AI기반의 평가</span>까지!
+							</p>
+							<a href="javascipt:void(0);" class="btn btn_sm">바로가기</a>
+						</div>
+					</section>
+					-->
+				</div>
+				<section class="section_area grid_content">
+					<h3 class="mainsection_tit">진로 &middot; 취업 행사</h3>
+					<div class="grid_row_xl">
+						<div class="grid_col col_xl_6 col_md_6">
+							<div class="maincalender_wrap">
+								<div class="calendar">
+									<div class="bg">
+										<span class="month_tit" id="thisMonth">NOV, 2021</span>
+										<ul>
+											<li>
+												<a href="javascript:void(0);" class="btn btn_sm btn_default">현재 월로 이동</a>
+											</li>
+											<li>
+												<a title="이전달 달력보기" class="prev_m" onclick="javascript:changeYearMon('prev');" href="javascript:void(0);">이전달</a>
+											</li>
+											<li>
+												<a title="다음달 달력 보기" class="next_m" onclick="javascript:changeYearMon('next');" href="javascript:void(0);">다음달</a>
+											</li>
+										</ul>
+									</div>
+									<div class="fc fc-ltr fc-unthemed" id="calendar" style="width: 100%;">
+										<div class="fc-view-container">
+											<div class="fc-view fc-month-view fc-basic-view">
+												<table>
+													<thead class="fc-head">
+														<tr>
+															<td class="fc-head-container fc-widget-header">
+																<div class="fc-row fc-widget-header">
+																	<table>
+																		<thead>
+																			<tr>
+																				<th class="fc-day-header fc-widget-header fc-sun">Sun</th>
+																				<th class="fc-day-header fc-widget-header fc-mon">Mon</th>
+																				<th class="fc-day-header fc-widget-header fc-tue">Tue</th>
+																				<th class="fc-day-header fc-widget-header fc-wed">Wed</th>
+																				<th class="fc-day-header fc-widget-header fc-thu">Thu</th>
+																				<th class="fc-day-header fc-widget-header fc-fri">Fri</th>
+																				<th class="fc-day-header fc-widget-header fc-sat">Sat</th>
+																			</tr>
+																		</thead>
+																	</table>
+																</div>
+															</td>
+														</tr>
+													</thead>
+													<tbody class="fc-body">
+														<tr>
+															<td class="fc-widget-content">
+																<div class="fc-day-grid-container">
+																	<div class="fc-day-grid">
+																		<div class="fc-row fc-week fc-widget-content">
+																			<div class="fc-bg">
+																				<table>
+																					<tbody>
+																						<tr>
+																							<td class="fc-day fc-widget-content fc-sun fc-past fc-other-month" data-date="2021-09-26"></td>
+																							<td class="fc-day fc-widget-content fc-mon fc-past fc-other-month" data-date="2021-09-27"></td>
+																							<td class="fc-day fc-widget-content fc-tue fc-past fc-other-month" data-date="2021-09-28"></td>
+																							<td class="fc-day fc-widget-content fc-wed fc-past fc-other-month" data-date="2021-09-29"></td>
+																							<td class="fc-day fc-widget-content fc-thu fc-past fc-other-month" data-date="2021-09-30"></td>
+																							<td class="fc-day fc-widget-content fc-past fc-fri" data-date="2021-10-01"></td>
+																							<td class="fc-day fc-widget-content fc-past fc-sat" data-date="2021-10-02"></td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																			<div class="fc-content-skeleton">
+																				<table>
+																					<thead>
+																						<tr>
+																							<td class="fc-day-number fc-sun fc-past fc-other-month" data-date="2021-09-26">26</td>
+																							<td class="fc-day-number fc-mon fc-past fc-other-month" data-date="2021-09-27">27</td>
+																							<td class="fc-day-number fc-tue fc-past fc-other-month" data-date="2021-09-28">28</td>
+																							<td class="fc-day-number fc-wed fc-past fc-other-month" data-date="2021-09-29">29</td>
+																							<td class="fc-day-number fc-thu fc-past fc-other-month" data-date="2021-09-30">30</td>
+																							<td class="fc-day-number fc-fri fc-past" data-date="2021-10-01">1</td>
+																							<td class="fc-day-number fc-sat fc-past" data-date="2021-10-02">2</td>
+																						</tr>
+																					</thead>
+																				</table>
+																			</div>
+																		</div>
+																		<div class="fc-row fc-week fc-widget-content">
+																			<div class="fc-bg">
+																				<table>
+																					<tbody>
+																						<tr>
+																							<td class="fc-day fc-widget-content fc-sun fc-past" data-date="2021-10-03"></td>
+																							<td class="fc-day fc-widget-content fc-mon fc-past" data-date="2021-10-04"></td>
+																							<td class="fc-day fc-widget-content fc-tue fc-past" data-date="2021-10-05"></td>
+																							<td class="fc-day fc-widget-content fc-wed fc-past" data-date="2021-10-06"></td>
+																							<td class="fc-day fc-widget-content fc-thu fc-past" data-date="2021-10-07"></td>
+																							<td class="fc-day fc-widget-content fc-fri fc-past" data-date="2021-10-08"></td>
+																							<td class="fc-day fc-widget-content fc-sat fc-past" data-date="2021-10-09"></td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																			<div class="fc-content-skeleton">
+																				<table>
+																					<thead>
+																						<tr>
+																							<td class="fc-day-number fc-sun fc-past" data-date="2021-10-03">3</td>
+																							<td class="fc-day-number fc-mon fc-past" data-date="2021-10-04">4</td>
+																							<td class="fc-day-number fc-tue fc-past" data-date="2021-10-05">5</td>
+																							<td class="fc-day-number fc-wed fc-past" data-date="2021-10-06">6</td>
+																							<td class="fc-day-number fc-thu fc-past" data-date="2021-10-07">7</td>
+																							<td class="fc-day-number fc-fri fc-past" data-date="2021-10-08">8</td>
+																							<td class="fc-day-number fc-sat fc-past" data-date="2021-10-09">9</td>
+																						</tr>
+																					</thead>
+																					<tbody>
+																						<tr>
+																							<td></td>
+																							<td></td>
+																							<td></td>
+																							<td></td>
+																							<td></td>
+																							</td>
+																							<td></td>
+																							<td></td>
+																						</tr>
+																						<tr>
+																							<td></td>
+																							<td></td>
+																							<td></td>
+																							<td></td>
+																							<td class="fc-event-container">
+																								<div class="fc-content">
+																									<span class="fc-title">
+																										<!--[pp] 행사별 클래스 : 
+																											carrer : 진로행사
+																											founded : 창업행사
+																										-->
+																										<a href="javascript:void(0);" class="have_event career">
+																											진로행사
+																										</a>
+																									</span>
+																								</div>
+																							</td>
+																							<td class="fc-event-container">
+																								<div class="fc-content">
+																									<span class="fc-title">
+																										<!-- [pp] ta_i 사용-->
+																										<a href="javascript:void(0);" class="have_event career ta_i">
+																											진로행사
+																										</a>
+																									</span>
+																								</div>
+																							</td>
+																							<td class="fc-event-container">
+																								<div class="fc-content">
+																									<span class="fc-title">
+																										<!-- [pp] ta_i 사용-->
+																										<a href="javascript:void(0);" class="have_event career ta_i">
+																											진로행사
+																										</a>
+																									</span>
+																								</div>
+																							</td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																		</div>
+																		<div class="fc-row fc-week fc-widget-content">
+																			<div class="fc-bg">
+																				<table>
+																					<tbody>
+																						<tr>
+																							<td class="fc-day fc-widget-content fc-sun fc-past" data-date="2021-10-10"></td>
+																							<td class="fc-day fc-widget-content fc-mon fc-past" data-date="2021-10-11"></td>
+																							<td class="fc-day fc-widget-content fc-tue fc-past" data-date="2021-10-12"></td>
+																							<td class="fc-day fc-widget-content fc-wed fc-past" data-date="2021-10-13"></td>
+																							<td class="fc-day fc-widget-content fc-thu fc-past" data-date="2021-10-14"></td>
+																							<td class="fc-day fc-widget-content fc-fri fc-past" data-date="2021-10-15"></td>
+																							<td class="fc-day fc-widget-content fc-sat fc-past" data-date="2021-10-16"></td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																			<div class="fc-content-skeleton">
+																				<table>
+																					<thead>
+																						<tr>
+																							<td class="fc-day-number fc-sun fc-past" data-date="2021-10-10">10</td>
+																							<td class="fc-day-number fc-mon fc-past" data-date="2021-10-11">11</td>
+																							<td class="fc-day-number fc-tue fc-past" data-date="2021-10-12">12</td>
+																							<td class="fc-day-number fc-wed fc-past" data-date="2021-10-13">13</td>
+																							<td class="fc-day-number fc-thu fc-past" data-date="2021-10-14">14</td>
+																							<td class="fc-day-number fc-fri fc-past" data-date="2021-10-15">15</td>
+																							<td class="fc-day-number fc-sat fc-past" data-date="2021-10-16">16</td>
+																						</tr>
+																					</thead>
+																				</table>
+																			</div>
+																		</div>
+																		<div class="fc-row fc-week fc-widget-content">
+																			<div class="fc-bg">
+																				<table>
+																					<tbody>
+																						<tr>
+																							<td class="fc-day fc-widget-content fc-sun fc-past" data-date="2021-10-17"></td>
+																							<td class="fc-day fc-widget-content fc-mon fc-past" data-date="2021-10-18"></td>
+																							<td class="fc-day fc-widget-content fc-tue fc-past" data-date="2021-10-19"></td>
+																							<td class="fc-day fc-widget-content fc-wed fc-past" data-date="2021-10-20"></td>
+																							<td class="fc-day fc-widget-content fc-thu fc-past" data-date="2021-10-21"></td>
+																							<td class="fc-day fc-widget-content fc-fri fc-past" data-date="2021-10-22"></td>
+																							<td class="fc-day fc-widget-content fc-sat fc-past fc-state-highlight" data-date="2021-10-23"></td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																			<div class="fc-content-skeleton">
+																				<table>
+																					<thead>
+																						<tr>
+																							<td class="fc-day-number fc-sun fc-past" data-date="2021-10-17">17</td>
+																							<td class="fc-day-number fc-mon fc-past" data-date="2021-10-18">18</td>
+																							<td class="fc-day-number fc-tue fc-past" data-date="2021-10-19">19</td>
+																							<td class="fc-day-number fc-wed fc-past" data-date="2021-10-20">20</td>
+																							<td class="fc-day-number fc-thu fc-past" data-date="2021-10-21">21</td>
+																							<td class="fc-day-number fc-fri fc-past" data-date="2021-10-22">22</td>
+																							<td class="fc-day-number fc-sat fc-past fc-state-highlight" data-date="2021-10-23">23</td>
+																						</tr>
+																					</thead>
+																				</table>
+																			</div>
+																		</div>
+																		<div class="fc-row fc-week fc-widget-content">
+																			<div class="fc-bg">
+																				<table>
+																					<tbody>
+																						<tr>
+																							<td class="fc-day fc-widget-content fc-sun fc-past" data-date="2021-10-24"></td>
+																							<td class="fc-day fc-widget-content fc-mon fc-past fc-today" data-date="2021-10-25"></td>
+																							<td class="fc-day fc-widget-content fc-tue fc-past" data-date="2021-10-26"></td>
+																							<td class="fc-day fc-widget-content fc-wed fc-past" data-date="2021-10-27"></td>
+																							<td class="fc-day fc-widget-content fc-thu fc-past" data-date="2021-10-28"></td>
+																							<td class="fc-day fc-widget-content fc-fri fc-past" data-date="2021-10-29"></td>
+																							<td class="fc-day fc-widget-content fc-sat fc-past" data-date="2021-10-30"></td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																			<div class="fc-content-skeleton">
+																				<table>
+																					<thead>
+																						<tr>
+																							<td class="fc-day-number fc-sun fc-past" data-date="2021-10-24">24</td>
+																							<td class="fc-day-number fc-mon fc-past fc-today" data-date="2021-10-25">25</td>
+																							<td class="fc-day-number fc-tue fc-past" data-date="2021-10-26">26</td>
+																							<td class="fc-day-number fc-wed fc-past" data-date="2021-10-27">27</td>
+																							<td class="fc-day-number fc-thu fc-past" data-date="2021-10-28">28</td>
+																							<td class="fc-day-number fc-fri fc-past fc-holiday" data-date="2021-10-29">29</td>
+																							<td class="fc-day-number fc-sat" data-date="2021-10-30">30</td>
+																						</tr>
+																					</thead>
+																				</table>
+																			</div>
+																		</div>
+																		<div class="fc-row fc-week fc-widget-content">
+																			<div class="fc-bg">
+																				<table>
+																					<tbody>
+																						<tr>
+																							<td class="fc-day fc-widget-content fc-sun fc-past" data-date="2021-10-31"></td>
+																							<td class="fc-day fc-widget-content fc-mon fc-past fc-other-month" data-date="2021-11-01"></td>
+																							<td class="fc-day fc-widget-content fc-tue fc-past fc-other-month" data-date="2021-11-02"></td>
+																							<td class="fc-day fc-widget-content fc-wed fc-past fc-other-month" data-date="2021-11-03"></td>
+																							<td class="fc-day fc-widget-content fc-thu fc-past fc-other-month" data-date="2021-11-04"></td>
+																							<td class="fc-day fc-widget-content fc-fri fc-past fc-other-month" data-date="2021-11-05"></td>
+																							<td class="fc-day fc-widget-content fc-sat fc-past fc-other-month" data-date="2021-11-06"></td>
+																						</tr>
+																					</tbody>
+																				</table>
+																			</div>
+																			<div class="fc-content-skeleton">
+																				<table>
+																					<thead>
+																						<tr>
+																							<td class="fc-day-number fc-sun fc-past" data-date="2021-10-31">31</td>
+																							<td class="fc-day-number fc-mon fc-past fc-other-month" data-date="2021-11-01">1</td>
+																							<td class="fc-day-number fc-tue fc-past fc-other-month" data-date="2021-11-02">2</td>
+																							<td class="fc-day-number fc-wed fc-past fc-other-month" data-date="2021-11-03">3</td>
+																							<td class="fc-day-number fc-thu fc-past fc-other-month" data-date="2021-11-04">4</td>
+																							<td class="fc-day-number fc-fri fc-past fc-other-month" data-date="2020-11-05">5</td>
+																							<td class="fc-day-number fc-sat fc-past fc-other-month" data-date="2020-11-06">6</td>
+																						</tr>
+																					</thead>
+																				</table>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid_col col_xl_6 col_md_6">
+							<div class="mainevent_wrap">
+								<div class="event_tit">
+									<strong>2021년 11월 행사</strong>
+									<div class="swipercontrol_type">
+										<a href="javascript:void(0);" class="btn btn_sm btn_default">현재 월로 이동</a>
+										<button type="button" class="swiper_control swiper_prev">이전목록</button>
+										<button type="button" class="swiper_control swiper_next">다음목록</button>
+									</div>
+								</div>
+								<ul>
+									<li>
+										<p class="career">
+											2021.11.03 ~ 2021.11.04: 진로행사1
+										</p>
+									</li>
+									<li>
+										<p class="founded">
+											2021.11.03 ~ 2021.11.04: 창업행사1
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+			</section>
+			<!-- [pp] //subpage 컨텐츠영역 -->
+		</div>
+		<!-- [pp] //푸터를 제외한 전체페이지 -->
+
+		<!-- [pp] footer -->
+		<footer class="footer_wrap">
+			<div class="footer_top">
+				<ul class="grid_content">
+					<li>
+						<a href="javascript:void(0);" class="medium">개인정보처리방침</a>
+					</li>
+					<li>
+						<a href="javascript:void(0);">이메일무단수집거부</a>
+					</li>
+				</ul>
+			</div>
+			<div class="footer_bottom">
+				<div class="grid_content">
+					<h2 class="footer_logo">
+						<img src="../../images/client/common/footer_logo.svg" alt="목원대학교"/>
+					</h2>
+					<ul>
+						<li>
+							(우)[35349] 대전광역시 서구 도안북로88(도안동, 목원대학교)
+						</li>
+						<li>
+							Tel. 
+							<a href="tel: 042-829-7114">042-829-7114</a>
+						</li>
+						<li>
+							Fax. 042-825-5020
+						</li>
+					</ul>
+					<p class="copyright">
+						COPYRIGHT © 2021 MOKWON UNIVERSITY. ALL RIGHTS RESERVED.
+					</p>
+				</div>
+			</div>
+		</footer>
+		<!-- [pp] //footer -->
+
+		<!-- [pp] 24.3.11 스크롤시 따라다니는 배너 수정-->
+		<div class="scroll_banner">
+			<a href="javascript:void(0);">
+				<img src="../../images/client/main/img_scrollbanner.png" alt="온라인 현직자 멘토링">
+			</a>
+			<a href="javascript:void(0);">
+				<img src="../../images/client/main/img_scrollbanner2.png" alt="잡플래닛 바로가기">
+			</a>
+		</div>
+		<!-- [pp] 24.3.11 스크롤시 따라다니는 배너 수정-->
+
+		<script>
+
+			//swiper 메인
+			//swiperSlide1();
+			//swiperSlide2();
+			//swiperSlide3();
+			//swiperSlide4();
+			//swiperSlide5();
+			//swiperSlide6();
+			
+			//핵심역량 그래프 
+			var options1 = {
+				series: [{
+					name: '나의 점수',
+					data: [50, 50, 40, 60, 50],
+				}, {
+					name: '전체 평균',
+					data: [70, 50, 50, 40, 30],
+				}],
+				chart: {
+					height: 400,
+					type: 'radar',
+				},
+				colors: ['#293959', '#a72b43'],
+				markers: {
+					colors: ['#293959', '#a72b43']
+				},
+				stroke: {
+					colors: ['#293959', '#a72b43']
+				},
+				fill: {
+					colors: ['#293959', '#a72b43']
+				},
+				dataLabels: {
+					style: {
+						colors: ['#4a4a4a']
+					}
+				},
+				legend: {
+					position: 'top',
+				},
+				xaxis: {
+					categories: ['이타적 인성', '주체적 자립', '융화적 소통', '자기애적 감성', '창의적 문제해결']
+				},
+				responsive:[{
+					breakpoint: 1024,
+					options:{
+						chart:{
+							height: 340
+						}
+					}
+				},{
+					breakpoint: 768,
+					options:{
+						chart:{
+							height: 300
+						}
+					}
+				}]
+			};
+			var chart1 = new ApexCharts(document.querySelector("#chart1"), options1);
+			chart1.render();
+
+		</script>
+	</body>
+</html>
